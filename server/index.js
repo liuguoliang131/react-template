@@ -10,7 +10,8 @@ const app = http.createServer((req, res) => {
 
   } else {
     console.log('url:', req.url)
-    let responseJson = JSON.stringify({ success: true })
+    res.setHeader("Content-type", "text/html;charset=utf8");
+    let responseJson = JSON.stringify({ success: true, msg: '成功了哦' })
     res.end(responseJson)
   }
 

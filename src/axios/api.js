@@ -3,7 +3,7 @@ import axios from './index'
 export const getTest = (params) => {
   return axios({
     method: 'get',
-    url: '/',
+    url: '/api/hahaha',
     params
   })
 }
