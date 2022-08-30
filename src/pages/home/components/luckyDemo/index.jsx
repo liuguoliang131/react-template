@@ -35,7 +35,8 @@ export default function App () {
       onStart={() => { // 点击抽奖按钮会触发star回调
         myLucky.current.play()
         setTimeout(() => {
-          const index = Math.random() * 6 >> 0
+          // const index = Math.random() * 6 >> 0
+          const index = 6
           myLucky.current.stop(index)
         }, 2500)
       }}
