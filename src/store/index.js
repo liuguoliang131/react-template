@@ -1,4 +1,4 @@
-import { createStore } from "redux"
+import { createStore } from 'redux'
 const initState = {
   type: '',
   value: 0
