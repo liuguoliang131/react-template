@@ -18,7 +18,7 @@ const Home = (props) => {
     <div>
       home
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home
