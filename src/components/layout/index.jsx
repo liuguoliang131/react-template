@@ -1,3 +1,4 @@
+import React from 'react'
 import './index.scss'
 import { Outlet } from 'react-router-dom'
 
@@ -12,4 +13,4 @@ function Layout () {
   )
 }
 
-export default Layout;
+export default Layout

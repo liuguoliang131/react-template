@@ -1,6 +1,6 @@
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { getTest } from '../../axios/api'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 const Home = (props) => {
   const location = useLocation()
   const getData = () => {
