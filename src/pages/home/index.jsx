@@ -1,6 +1,7 @@
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { getTest } from '../../axios/api'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
+import LuckyDemo from './components/luckyDemo/index.jsx'
 const Home = (props) => {
   const location = useLocation()
   const getData = () => {
@@ -16,7 +17,7 @@ const Home = (props) => {
   })
   return (
     <div>
-      home
+      <LuckyDemo></LuckyDemo>
     </div>
   )
 }

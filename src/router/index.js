@@ -1,5 +1,5 @@
 // Suspense用于组件切换时的空白期的显示
-import { Suspense } from 'react'
+import React, { Suspense } from 'react'
 import { Navigate, BrowserRouter, useRoutes } from 'react-router-dom'
 import Home from '../pages/home/index.jsx'
 import Login from '../pages/login/index.jsx'
