@@ -1,4 +1,5 @@
-import { BrowserRouter, useRoutes } from 'react-router-dom'
+import React from 'react'
+// import { BrowserRouter, useRoutes } from 'react-router-dom'
 import SetRoutes from './router/index'
 
 function App () {
@@ -9,7 +10,7 @@ function App () {
       <SetRoutes></SetRoutes>
     </div>
 
-  );
+  )
 }
 
-export default App;
+export default App
