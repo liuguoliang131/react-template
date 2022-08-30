@@ -1,11 +1,11 @@
-
+import './index.scss'
 import { Outlet } from 'react-router-dom'
 
 function Layout () {
   return (
-    <div>
+    <div className='layout'>
       layout
-      <div>
+      <div className='view'>
         <Outlet></Outlet>
       </div>
     </div>

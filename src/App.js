@@ -5,8 +5,7 @@ function App () {
   console.log('app')
   // const element = useRoutes(routes)
   return (
-    <div>
-      <div>app</div>
+    <div className='App'>
       <SetRoutes></SetRoutes>
     </div>
 
